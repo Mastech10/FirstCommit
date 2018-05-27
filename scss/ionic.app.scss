@@ -1,0 +1,335 @@
+$stable: #E4E4EB;
+$calm: #0EB2E0;
+$royal: #BEDEF6;
+$assertive: #1ECB58;
+$energized: #4AB4F6;
+$dark: #173BA1;
+$link-color: $dark;
+$content-padding: 5px;
+$item-padding: 10px !default;
+$button-bar-button-height: 20px;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.npad {
+	padding-bottom: 2px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	margin-top: 0px;
+	border-bottom: 0px solid;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	border-top: 0px solid;
+}
+
+.bottomborder {
+	background-color: white;
+	border-bottom: 5px solid #387EF5;
+	border-radius: 5px;
+	border-right: 1px solid #387EF5;
+}
+
+.npad1 {
+	padding-bottom: 2px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+	margin-top: 0px;
+	border-bottom: 3px solid #387EF5;
+	background-color: white;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.pos-button {
+	float: right;
+}
+
+.display-inline {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	vertical-align: center;
+	left: 0px;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.comments-text {
+	max-width: 300px;
+	overflow: scroll;
+	height: 70px;
+}
+
+.nopad {
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	margin-top: 10px;
+	border-bottom: 4px solid #387EF5;
+	border-right: 2px solid #387EF5;
+	background-color: white;
+	border-radius: 5px;
+}
+
+blockquote {
+	margin: 0px;
+}
+
+.options-inline {
+	display: inline-block;
+	width: 50%;
+}
+
+.users-inline {
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	margin-top: 0px;
+	max-height: 60px;
+	border: none;
+	width: 20%;
+}
+
+.chat-notification {
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	border: 2px solid #4AB4F6;
+	background-color: #4AB4F6;
+	outline-width: 5px;
+	margin: 3px 0px 0px;
+	border-radius: 12px;
+	text-align: justify;
+	font-weight: normal;
+}
+
+.chat-notification  p {
+	margin: 0px;
+}
+
+.chat-message {
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	border: 1px solid #92C4EF;
+	background-color: #BEDEF6;
+	margin: 3px 0px 0px;
+	border-radius: 12px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #090D6B;
+	text-shadow: 2px 2px #FFFFFF;
+	line-height: normal;
+}
+
+.chat-message  p {
+	margin: 2px 0px 2px;
+}
+
+.help-text {
+	font-family: noto sans;
+	font-weight: normal;
+	font-size: 16px;
+	color: #0D1E99;
+}
+
+.no-border {
+	border: 0px;
+}
+
+.item-stacked-label {
+	border: none;
+	padding: 0px 10px 0px 10px;
+	background-color: white;
+	border-radius: 3px;
+	font-weight: normal;
+}
+
+.item-input {
+	padding: 3px 10px 3px 10px !important;
+	background-color: white;
+	border-radius: 3px;
+	font-weight: normal;
+	border: none;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	border: none;
+	margin: 2px 0px 4px 0px;
+	padding: 3px 10px 3px 10px;
+	background-color: rgb(240, 240, 240);
+	border-radius: 3px;
+	font-weight: normal;
+}
+
+input[type="date"] {
+	padding: 3px 10px 3px 10px !important;
+	border: none;
+}
+
+.item-select {
+	height: 46px;
+	border: none;
+}
+
+.maintitle {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.chat-message-answer {
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	margin: 3px 0px 0px;
+	border: 1px solid #387EF5;
+	border-radius: 12px;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: normal;
+	text-indent: 10px;
+}
+
+.chat-message-answer  p {
+	margin: 2px 0px 2px;
+}
+
+.selectedbutton {
+	border-bottom: 4px solid #387EF5;
+}
+
+.chat-bar {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.formtext {
+	color: #366BE6;
+	font-weight: bold;
+}
+
+.icon-centered {
+	vertical-align: middle;
+}
+
+.item-body {
+	height: 100px;
+}
+
+.button {
+	vertical-align: center;
+	min-height: 17px;
+}
+
+.item-user {
+	padding-top: 7px;
+	padding-bottom: 0px;
+}
+
+.item-body p {
+	margin: 0px;
+}
+
+.category {
+	height: 20px;
+	margin: 3px;
+	border-style: solid;
+	border-width: 1px;
+	line-height: 1.2;
+	font-size: 12px;
+}
+
+.engagebutton {
+	height: 30px;
+	max-height: 35px;
+	padding-top: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 12px;
+	vertical-align: center;
+	line-height: 2;
+	padding-bottom: 10px;
+}
+
+.engagebutton.icon: before, .engagebutton.icon-left: before, .engagebutton.icon-right: before {
+	line-height: normal;
+	padding-top: 0px;
+}
+
+.chatbutton {
+	height: 40px;
+	max-height: 40px;
+	padding-top: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	vertical-align: center;
+	line-height: normal;
+	padding-top: 10px;
+}
+
+.button.icon: before, .button.icon-left: before, .button.icon-right: before {
+	line-height: normal;
+	padding-top: 0px;
+}
+
+.itembox {
+	height: 27px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.button.button-block {
+	margin: 0px;
+}
+
+.list {
+	position: relative;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 0;
+	margin-bottom: 3px;
+}
+
+.item-input {
+	padding: 3px 0 3px 10px;
+}
+
+.button-bar > .button {
+	padding: 0 6px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion: hover {
+	background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+	padding: 0 18px;
+	background-color: white;
+	display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+	display: block;
+}
+

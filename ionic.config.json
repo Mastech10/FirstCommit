@@ -1,5 +1,10 @@
 {
   "name": "IonicApp",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "15fd045e",
+  "type": "ionic-angular",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "integrations": {}
 }
